@@ -1,0 +1,58 @@
+.imageeat{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.infofood{
+    padding-bottom: 15px;
+    background-color: #c7cbc14a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.costfood{
+    padding-top: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.namefood{
+    font-size: 18px;
+}
+.hotmeal{
+    margin-top: 100px;
+}
+#reservation{
+    position: relative;
+    z-index: 10;
+    min-height: 500px;
+    background-color: #111111;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(img/reservation.jpg);
+    background-color: #111111;
+    color: #ffffff;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.containertext h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.containertext p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1260px){
+    .namefood{
+        font-size: 15px;
+    }
+    .losos, .forel{
+        margin-top: 10px;
+    }
+}
