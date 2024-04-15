@@ -3,6 +3,16 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.infofood {
+    min-height: 130px;
+}
+.imageeat:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    opacity: 0.9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 .infofood{
     padding-bottom: 15px;
     background-color: #c7cbc14a;
@@ -17,7 +27,7 @@
     align-items: center;
 }
 .namefood{
-    font-size: 18px;
+    font-size: 15px;
 }
 .hotmeal{
     margin-top: 100px;
@@ -48,6 +58,17 @@
 .containertext p{
     font-size: 20px;
 }
+.custom-menu{
+    width: 250px;
+}
+.container-cart{
+    margin-top: 65px;
+    width: 1300px;
+}
+.body1{
+    background-color: #b2b2b2c0;
+}
+
 @media only screen and (max-width: 1260px){
     .namefood{
         font-size: 15px;
